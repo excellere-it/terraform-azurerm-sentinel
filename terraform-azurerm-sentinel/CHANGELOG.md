@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.2] - 2025-01-13
+
+### Changed
+- Module dependencies now use Terraform Registry references instead of relative paths
+  - `terraform-terraform-namer` → `app.terraform.io/infoex/namer/terraform` version `0.0.1`
+  - Ensures proper version pinning and module registry best practices
+
 ### Added
 - Initial module implementation for Microsoft Sentinel
 - Support for Log Analytics workspace onboarding to Sentinel
@@ -17,7 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Threat Intelligence data connector
 - Scheduled alert rules with customizable KQL queries
 - Watchlist management for reference data
-- Integration with terraform-terraform-namer for standardized naming and tagging
+- Integration with terraform-namer for standardized naming and tagging
 - Comprehensive variable validation
 - Daily ingestion quota controls for cost management
 - Support for multiple alert rule configurations
@@ -26,20 +33,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - CI/CD pipeline with GitHub Actions
 - Makefile with 20+ automation targets
 
-### Changed
-
-### Deprecated
-
-### Removed
-
-### Fixed
-
-### Security
-
-## [0.1.0] - YYYY-MM-DD
+## [0.0.1] - 2025-01-13
 
 ### Added
-- Initial release
+- Initial release placeholder
 
-[Unreleased]: https://github.com/kelomai/terraform-azurerm-sentinel/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/kelomai/terraform-azurerm-sentinel/releases/tag/v0.1.0
+[Unreleased]: https://github.com/excellere-it/terraform-azurerm-sentinel/compare/0.0.2...HEAD
+[0.0.2]: https://github.com/excellere-it/terraform-azurerm-sentinel/compare/0.0.1...0.0.2
+[0.0.1]: https://github.com/excellere-it/terraform-azurerm-sentinel/releases/tag/0.0.1
