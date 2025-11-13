@@ -73,7 +73,8 @@
 # =============================================================================
 
 module "naming" {
-  source = "../terraform-terraform-namer"
+  source  = "app.terraform.io/infoex/namer/terraform"
+  version = "0.0.1"
 
   contact     = var.contact
   environment = var.environment
